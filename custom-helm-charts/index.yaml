@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  envoy:
+  - apiVersion: v1
+    appVersion: 1.11.2
+    created: "2020-04-27T18:10:22.785097-04:00"
+    description: Envoy is an open source edge and service proxy, designed for cloud-native
+      applications.
+    digest: 088127172fa0a4c779feab3610bcfad539792bb25957c8432f25f522c6264280
+    home: https://www.envoyproxy.io/
+    icon: https://avatars0.githubusercontent.com/u/30125649
+    keywords:
+    - envoy
+    - proxy
+    maintainers:
+    - email: josdotso@cisco.com
+      name: josdotso
+    - email: ykuoka@gmail.com
+      name: mumoshu
+    name: envoy
+    sources:
+    - https://github.com/envoyproxy/envoy
+    urls:
+    - envoy-1.9.0.tgz
+    version: 1.9.0
+  teams:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-04-27T18:10:22.786527-04:00"
+    description: A Helm chart for Kubernetes
+    digest: df31ba329754a8cb2d712096011c3f42076a2dd5a4757b66728acfa94d1c957d
+    name: teams
+    urls:
+    - teams-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-04-27T18:10:22.782856-04:00"
