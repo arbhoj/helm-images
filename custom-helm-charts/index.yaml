@@ -31,6 +31,6 @@ entries:
     digest: df31ba329754a8cb2d712096011c3f42076a2dd5a4757b66728acfa94d1c957d
     name: teams
     urls:
-    - teams-0.1.0.tgz
+    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/teams-0.1.0.tgz
     version: 0.1.0
 generated: "2020-04-27T18:10:22.782856-04:00"
