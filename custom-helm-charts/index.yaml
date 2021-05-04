@@ -56,8 +56,8 @@ entries:
       name: danderson
     name: metallb
     urls:
-    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/metallb-0.12.0.1.tgz
-    version: 0.12.0.1
+    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/metallb-0.12.100.tgz
+    version: 0.12.100
   teams:
   - apiVersion: v1
     appVersion: "1.0"
