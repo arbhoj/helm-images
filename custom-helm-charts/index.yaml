@@ -3,9 +3,9 @@ entries:
   common:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-28T19:05:16.611675-04:00"
+    created: "2021-05-04T16:23:42.372224-04:00"
     description: Common ad-hoc components to be deployed while standing up a cluster
-    digest: fb42db553954cd06842e8d69e15f7fd96e754b735241faba88658e672a22b072
+    digest: 8dd39667a34be6cee5f3dd9b3e3305a7be118c19919e463212b44be66b3efb74
     name: common
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   envoy:
   - apiVersion: v1
     appVersion: 1.11.2
-    created: "2021-04-28T19:05:16.613656-04:00"
+    created: "2021-05-04T16:23:42.374735-04:00"
     description: Envoy is an open source edge and service proxy, designed for cloud-native
       applications.
     digest: 088127172fa0a4c779feab3610bcfad539792bb25957c8432f25f522c6264280
@@ -32,6 +32,40 @@ entries:
     sources:
     - https://github.com/envoyproxy/envoy
     urls:
-    - envoy-1.9.0.tgz
+    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/envoy-1.9.0.tgz
     version: 1.9.0
-generated: "2021-04-28T19:05:16.610416-04:00"
+  metallb:
+  - apiVersion: v1
+    appVersion: 0.8.1
+    created: "2021-05-04T16:23:42.375338-04:00"
+    description: MetalLB is a load-balancer implementation for bare metal Kubernetes
+      clusters
+    digest: ea655514b4d0926d970e7f9201f7eb8b62d3060b186f8daaddf58b2fb4c8cfcf
+    home: https://metallb.universe.tf
+    icon: https://metallb.universe.tf/images/logo.png
+    keywords:
+    - load-balancer
+    - balancer
+    - lb
+    - bgp
+    - arp
+    - vrrp
+    - vip
+    maintainers:
+    - email: dave@natulte.net
+      name: danderson
+    name: metallb
+    urls:
+    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/metallb-0.12.0.1.tgz
+    version: 0.12.0.1
+  teams:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-05-04T16:23:42.376028-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 20f64167e25f15af32355e984a0808b4af709474a25800e81fcfdf78eab8913b
+    name: teams
+    urls:
+    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/teams-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-05-04T16:23:42.370781-04:00"
