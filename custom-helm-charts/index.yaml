@@ -9,31 +9,8 @@ entries:
     name: common
     type: application
     urls:
-    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/common-0.1.0.tgz
+    - http://custom-helm-charts/common-0.1.0.tgz
     version: 0.1.0
-  envoy:
-  - apiVersion: v1
-    appVersion: 1.11.2
-    created: "2021-05-04T16:23:42.374735-04:00"
-    description: Envoy is an open source edge and service proxy, designed for cloud-native
-      applications.
-    digest: 088127172fa0a4c779feab3610bcfad539792bb25957c8432f25f522c6264280
-    home: https://www.envoyproxy.io/
-    icon: https://avatars0.githubusercontent.com/u/30125649
-    keywords:
-    - envoy
-    - proxy
-    maintainers:
-    - email: josdotso@cisco.com
-      name: josdotso
-    - email: ykuoka@gmail.com
-      name: mumoshu
-    name: envoy
-    sources:
-    - https://github.com/envoyproxy/envoy
-    urls:
-    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/envoy-1.9.0.tgz
-    version: 1.9.0
   metallb:
   - apiVersion: v1
     appVersion: 0.8.1
@@ -56,16 +33,6 @@ entries:
       name: danderson
     name: metallb
     urls:
-    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/metallb-0.12.100.tgz
+    - http://custom-helm-charts/metallb-0.12.100.tgz
     version: 0.12.100
-  teams:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-05-04T16:23:42.376028-04:00"
-    description: A Helm chart for Kubernetes
-    digest: 20f64167e25f15af32355e984a0808b4af709474a25800e81fcfdf78eab8913b
-    name: teams
-    urls:
-    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/teams-0.1.0.tgz
-    version: 0.1.0
 generated: "2021-05-04T16:23:42.370781-04:00"
