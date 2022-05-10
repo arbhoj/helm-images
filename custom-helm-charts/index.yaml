@@ -9,7 +9,7 @@ entries:
     name: common
     type: application
     urls:
-    - common-0.1.0.tgz
+    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/common-0.1.0.tgz
     version: 0.1.0
   envoy:
   - apiVersion: v1
@@ -32,7 +32,7 @@ entries:
     sources:
     - https://github.com/envoyproxy/envoy
     urls:
-    - envoy-1.9.0.tgz
+    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/envoy-1.9.0.tgz
     version: 1.9.0
   f5-bigip-ctlr:
   - apiVersion: v1
@@ -42,7 +42,7 @@ entries:
     digest: 964673f34071639b7fc9a2a593dfe21b14239cf5858050578df3c98cea763624
     name: f5-bigip-ctlr
     urls:
-    - f5-bigip-ctlr-0.0.14.tgz
+    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/f5-bigip-ctlr-0.0.14.tgz
     version: 0.0.14
   hello-world:
   - apiVersion: v2
@@ -53,7 +53,7 @@ entries:
     name: hello-world
     type: application
     urls:
-    - hello-world-0.1.0.tgz
+    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/hello-world-0.1.0.tgz
     version: 0.1.0
   metallb:
   - apiVersion: v1
@@ -77,7 +77,7 @@ entries:
       name: danderson
     name: metallb
     urls:
-    - metallb-0.12.100.tgz
+    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/metallb-0.12.100.tgz
     version: 0.12.100
   teams:
   - apiVersion: v1
@@ -87,6 +87,6 @@ entries:
     digest: 20f64167e25f15af32355e984a0808b4af709474a25800e81fcfdf78eab8913b
     name: teams
     urls:
-    - teams-0.1.0.tgz
+    - https://raw.githubusercontent.com/arbhoj/helm-images/master/custom-helm-charts/teams-0.1.0.tgz
     version: 0.1.0
 generated: "2022-05-10T18:35:46.106387-04:00"
