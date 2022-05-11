@@ -3,18 +3,18 @@ entries:
   common:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-11T11:20:34.28858-04:00"
+    created: "2022-05-11T11:26:21.231845-04:00"
     description: Common ad-hoc components to be deployed while standing up a cluster
     digest: dfc0006095ee9bf29a31de8bb7a737881ce44152d3ea9c37de7245ab8413c121
     name: common
     type: application
     urls:
-    - http://custom-helm-charts.kube-system.svc/common-0.1.0.tgz
+    - http://custom-helm-charts.kube-system.svc/custom-helm-charts/common-0.1.0.tgz
     version: 0.1.0
   envoy:
   - apiVersion: v1
     appVersion: 1.11.2
-    created: "2022-05-11T11:20:34.289853-04:00"
+    created: "2022-05-11T11:26:21.232822-04:00"
     description: Envoy is an open source edge and service proxy, designed for cloud-native
       applications.
     digest: 088127172fa0a4c779feab3610bcfad539792bb25957c8432f25f522c6264280
@@ -32,33 +32,33 @@ entries:
     sources:
     - https://github.com/envoyproxy/envoy
     urls:
-    - http://custom-helm-charts.kube-system.svc/envoy-1.9.0.tgz
+    - http://custom-helm-charts.kube-system.svc/custom-helm-charts/envoy-1.9.0.tgz
     version: 1.9.0
   f5-bigip-ctlr:
   - apiVersion: v1
-    created: "2022-05-11T11:20:34.290966-04:00"
+    created: "2022-05-11T11:26:21.234195-04:00"
     description: Deploy the F5 Networks BIG-IP Controller for Kubernetes and OpenShift
       (k8s-bigip-ctlr).
     digest: 964673f34071639b7fc9a2a593dfe21b14239cf5858050578df3c98cea763624
     name: f5-bigip-ctlr
     urls:
-    - http://custom-helm-charts.kube-system.svc/f5-bigip-ctlr-0.0.14.tgz
+    - http://custom-helm-charts.kube-system.svc/custom-helm-charts/f5-bigip-ctlr-0.0.14.tgz
     version: 0.0.14
   hello-world:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-11T11:20:34.291227-04:00"
+    created: "2022-05-11T11:26:21.234473-04:00"
     description: A Hello World Helm chart created by Arvind Bhoj (abhoj@d2iq.com)
     digest: 3460886d3bb4c836bfb77521c14099442fcecb1a35fd8d0fb899f59f11fa5e00
     name: hello-world
     type: application
     urls:
-    - http://custom-helm-charts.kube-system.svc/hello-world-0.1.0.tgz
+    - http://custom-helm-charts.kube-system.svc/custom-helm-charts/hello-world-0.1.0.tgz
     version: 0.1.0
   metallb:
   - apiVersion: v1
     appVersion: 0.8.1
-    created: "2022-05-11T11:20:34.292436-04:00"
+    created: "2022-05-11T11:26:21.23515-04:00"
     description: MetalLB is a load-balancer implementation for bare metal Kubernetes
       clusters
     digest: e51904c95d2743a67e7e72333608ebf3a3727c7d57d9e6f254bb213cd6d8fec3
@@ -77,16 +77,16 @@ entries:
       name: danderson
     name: metallb
     urls:
-    - http://custom-helm-charts.kube-system.svc/metallb-0.12.100.tgz
+    - http://custom-helm-charts.kube-system.svc/custom-helm-charts/metallb-0.12.100.tgz
     version: 0.12.100
   teams:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-05-11T11:20:34.292974-04:00"
+    created: "2022-05-11T11:26:21.235403-04:00"
     description: A Helm chart for Kubernetes
     digest: 20f64167e25f15af32355e984a0808b4af709474a25800e81fcfdf78eab8913b
     name: teams
     urls:
-    - http://custom-helm-charts.kube-system.svc/teams-0.1.0.tgz
+    - http://custom-helm-charts.kube-system.svc/custom-helm-charts/teams-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-11T11:20:34.285164-04:00"
+generated: "2022-05-11T11:26:21.231456-04:00"
