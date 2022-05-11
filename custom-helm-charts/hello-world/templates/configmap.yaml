@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mainpage
+data:
+  index.html: |
+    <html>
+        <body>
+            <h1>Run IT on DKP. The number one independent kubernetes platform in the world.</h1>
+            <h2>Hello {{ .Values.customer }}<h2>
+        </body>
+    </html>
